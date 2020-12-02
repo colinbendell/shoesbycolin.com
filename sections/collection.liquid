@@ -1,3 +1,16 @@
+  {% if variants != '' %}
+    {% assign variants = variants | split: '|' %}
+    {% assign variants = variants | split: '|' %}
+    {% assign variants = variants | split: '|' %}
+{% assign variants = variants | split: '|' %}
+    {% assign variants2 = variants  | join: '|' | downcase | split: '|' | uniq %}
+    {% assign foo = '' | split: '' %}
+    {% assign variants3 = variants | concat: foo %}
+<div>test[{{variants}}]</div>
+<div>test2[{{variants2}}]</div>
+<div>test3[{{variants3}}]</div>
+<div>foo[{{foo.size}}]</div>
+{% endif %}
 <div class="page-width">
   {% if section.settings.title != blank %}
     <div class="section-header text-center">

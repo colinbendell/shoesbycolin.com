@@ -26,12 +26,27 @@
       "header": {
         "type": "header",
         "settings": {
+          "align_logo": "left",
+          "logo_max_width": 100,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "Announce something here",
+          "color_bg": "#7796a8",
+          "color_text": "#ffffff"
         }
       },
       "hero": {
         "type": "hero",
         "settings": {
-          "text_size": "large"
+          "image": "shopify:\/\/shop_images\/IMG_2739.jpeg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "large",
+          "title": "Colin's Shoes",
+          "text": "<p>More than an Analogy<\/p>",
+          "button_label": ""
         }
       },
       "slideshow": {
@@ -40,64 +55,61 @@
           "slideshow-0": {
             "type": "image",
             "settings": {
-            }
-          },
-          "slideshow-1": {
-            "type": "image",
-            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_3771.jpeg",
+              "alignment": "center center",
+              "slide_title": "If lego is the language of the gods",
+              "subheading": "then what is jed?",
+              "button_label": ""
             }
           }
         },
         "block_order": [
-          "slideshow-0",
-          "slideshow-1"
+          "slideshow-0"
         ],
         "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
         }
       },
       "featured-collections": {
         "type": "collection",
         "settings": {
-          "collection": "frontpage"
-        }
-      },
-      "feature-row": {
-        "type": "feature-row",
-        "settings": {
+          "title": "Featured collection",
+          "collection": "frontpage",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
         }
       },
       "footer": {
         "type": "footer",
         "blocks": {
-          "link_list": {
-            "type": "link_list",
-            "settings": {
-            }
-          },
           "text": {
             "type": "text",
             "settings": {
-            }
-          },
-          "newsletter": {
-            "type": "newsletter",
-            "settings": {
+              "title": "Sometimes shoes are more than what meets the eye!",
+              "text": "<p>... <\/p>"
             }
           }
         },
         "block_order": [
-          "link_list",
-          "text",
-          "newsletter"
+          "text"
         ],
         "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#f5f5f5",
+          "color_footer_text": "#3d4246"
         }
       }
     },
     "content_for_index": [
       "hero",
       "featured-collections",
-      "feature-row",
       "slideshow"
     ]
   },
@@ -128,8 +140,7 @@
       "sections": {
         "header": {
           "type": "header",
-          "settings": {
-          }
+          "settings": {}
         },
         "hero": {
           "type": "hero",

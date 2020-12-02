@@ -8,8 +8,8 @@
         "external": "Otevře externí webovou stránku.",
         "new_window_and_external": "Otevře externí webovou stránku v novém okně."
       },
-      "refresh_page": "po výběru volby se provede obnovení celé stránky",
-      "selection_help": "výběr provedete mezerníkem a následně šipkami",
+      "refresh_page": "Po výběru volby se provede obnovení celé stránky.",
+      "selection_help": "Výběr provedete mezerníkem a potom šipkami.",
       "unit_price_separator": "za",
       "error": "Chyba"
     },
@@ -25,7 +25,7 @@
     "pagination": {
       "previous": "Předchozí stránka",
       "next": "Další stránka",
-      "current_page": "Strana {{ current }}\/{{ total }}"
+      "current_page": "Strana {{ current }}/{{ total }}"
     },
     "password_page": {
       "opening_soon": "Brzy se otevře",
@@ -35,7 +35,7 @@
       "login_form_submit": "Zadat",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Těsně než otevřeme, pošleme vám e-mail!",
-      "admin_link_html": "Jste vlastníkem obchodu? <a href=\"\/admin\" class=\"text-link\">Přihlaste se zde<\/a>",
+      "admin_link_html": "Jste vlastníkem obchodu? <a href=\"/admin\" class=\"text-link\">Přihlaste se zde</a>",
       "password_link": "Vstoupit pomocí hesla",
       "powered_by_shopify_html": "Tento obchod poběží na platformě {{ shopify }}"
     },
@@ -50,7 +50,7 @@
       }
     },
     "search": {
-      "no_results_html": "Vyzkoušejte jiný hledaný termín, nebo se vraťte na <a href=\"{{ link }}\">domovskou stránku<\/a>.",
+      "no_results_html": "Vyzkoušejte jiný hledaný termín, nebo se vraťte na <a href=\"{{ link }}\">domovskou stránku</a>.",
       "empty_search_message": "Pole hledání nemůže být prázdné",
       "results_with_count": {
         "one": "{{ count }} výsledek pro „{{ terms }}“",
@@ -98,7 +98,7 @@
     "map": {
       "address_error": "Chyba při hledání této adresy",
       "address_no_results": "Žádné výsledky pro tuto adresu",
-      "address_query_limit_html": "Je překročen limit použití API Google. Zvažte upgrade na <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">plán Premium<\/a>.",
+      "address_query_limit_html": "Je překročen limit použití API Google. Zvažte upgrade na <a href=\"https://developers.google.com/maps/premium/usage-limits\">plán Premium</a>.",
       "auth_error_html": "Při ověřování vašeho účtu Map Google došlo k problému.",
       "section_heading": "Lokalita"
     },
@@ -141,14 +141,14 @@
     "general": {
       "title": "Váš košík",
       "note": "Přidejte poznámku ke své objednávce",
-      "removed_item_html": "Odstraněno <span class=\"cart__removed-product-details\">({{ quantity }}) {{ link }}<\/span> z vašeho košíku.",
+      "removed_item_html": "Odstraněno <span class=\"cart__removed-product-details\">({{ quantity }}) {{ link }}</span> z vašeho košíku.",
       "remove": "Odstranit",
       "subtotal": "Mezisoučet",
       "savings": "Ušetříte",
       "taxes_and_shipping_at_checkout": "Daně a poštovné se vypočítají v pokladně",
-      "taxes_and_shipping_policy_at_checkout_html": "Daně a <a href=\"{{ link }}\">poštovné<\/a> se vypočítá v pokladně",
+      "taxes_and_shipping_policy_at_checkout_html": "Daně a <a href=\"{{ link }}\">poštovné</a> se vypočítá v pokladně",
       "taxes_included_but_shipping_at_checkout": "Daně a poštovné se vypočítají v pokladně",
-      "taxes_included_and_shipping_policy_html": "Včetně daní. <a href=\"{{ link }}\">Poštovné<\/a> se vypočítá v pokladně.",
+      "taxes_included_and_shipping_policy_html": "Včetně daní. <a href=\"{{ link }}\">Poštovné</a> se vypočítá v pokladně.",
       "update": "Aktualizovat",
       "checkout": "Pokladna",
       "empty": "Váš košík je momentálně prázdný.",
@@ -367,7 +367,7 @@
       "vendor": "Dodavatel",
       "quantity_minimum_message": "Množství musí být jedna nebo více",
       "include_taxes": "Včetně daní.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Poštovné<\/a> se vypočítá v pokladně.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Poštovné</a> se vypočítá v pokladně.",
       "unit_price_label": "Jednotková cena",
       "view_cart": "Zobrazit košík"
     }

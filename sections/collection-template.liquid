@@ -24,11 +24,6 @@
       {%- assign is_filter_by_available = true -%}
     {%- endif -%}
 
-    {%- assign is_vendor_or_type_collection = false -%}
-    {%- if collection.current_type != blank or collection.current_vendor != blank -%}
-      {%- assign is_vendor_or_type_collection = true -%}
-    {%- endif -%}
-
     {% if section.settings.show_collection_image and collection.image %}
       <div class="collection-hero">
         <div class="collection-hero__image ratio-container lazyload js"
@@ -84,25 +79,16 @@
         <div class="page-width">
           <div class="filters-toolbar">
             <div class="filters-toolbar__item-wrapper">
-              {% if section.settings.tags_enable and is_vendor_or_type_collection == false %}
+              {% if section.settings.tags_enable %}
                 {% unless collection.all_tags.size == 0 %}
                   <div class="filters-toolbar__item-child">
                     <label class="filters-toolbar__label select-label" for="FilterTags">{{ 'collections.filters.title_tags' | t }}</label>
                     <div class="filters-toolbar__input-wrapper select-group">
                       <select class="filters-toolbar__input hidden" name="FilterTags" id="FilterTags" aria-describedby="a11y-refresh-page-message a11y-selection-message">
-                        {% if current_tags %}
-                          {% if collection.handle %}
-                            <option value="/collections/{{ collection.handle }}">{{ 'collections.filters.all_tags' | t }}</option>
-                          {% elsif collection.current_type %}
-                            <option value="{{ collection.current_type | url_for_type }}">{{ 'collections.filters.all_tags' | t }}</option>
-                          {% elsif collection.current_vendor %}
-                            <option value="{{ collection.current_vendor | url_for_vendor }}">{{ 'collections.filters.all_tags' | t }}</option>
-                          {% endif %}
-                        {% else %}
-                          <option value="">{{ 'collections.filters.all_tags' | t }}</option>
-                        {% endif %}
+                        <option value="{{ collection.url }}">{{ 'collections.filters.all_tags' | t }}</option>
                         {% for tag in collection.all_tags %}
-                          <option value="/collections/{% if collection.handle != blank %}{{ collection.handle }}{% else %}all{% endif %}/{{ tag | handleize }}"{% if current_tags contains tag %} selected="selected"{% endif %}>{{ tag }}</option>
+                          {%- assign new_url = tag | link_to_tag: tag | split: 'href="' | last | split: '"' | first -%}
+                          <option value="{{ new_url }}"{% if current_tags contains tag %} selected="selected"{% endif %}>{{ tag }}</option>
                         {% endfor %}
                       </select>
                       {% include 'icon-chevron-down' %}
@@ -289,7 +275,7 @@
         "it": "Layout",
         "ja": "レイアウト",
         "ko": "레이아웃",
-        "ms": "Susun atur",
+        "ms": "Tata letak",
         "nb": "Oppsett",
         "nl": "Indeling",
         "pt-BR": "Layout",

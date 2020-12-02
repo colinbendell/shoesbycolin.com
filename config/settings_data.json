@@ -2,8 +2,8 @@
   "current": {
     "color_text": "#3d4246",
     "color_body_text": "#69727b",
-    "color_sale_text": "#557B97",
-    "color_button": "#557B97",
+    "color_sale_text": "#557b97",
+    "color_button": "#557b97",
     "color_button_text": "#fff",
     "color_small_button_text_border": "#3d4246",
     "color_text_field_text": "#000",
@@ -19,9 +19,34 @@
     "type_base_font": "work_sans_n4",
     "type_base_size": 16,
     "type_bold_product_titles": false,
+    "share_image": "",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "",
+    "enable_ajax": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
     "sections": {
       "header": {
         "type": "header",
@@ -153,21 +178,18 @@
           "blocks": {
             "slideshow-0": {
               "type": "image",
-              "settings": {
-              }
+              "settings": {}
             },
             "slideshow-1": {
               "type": "image",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
             "slideshow-0",
             "slideshow-1"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "featured-collections": {
           "type": "collection",
@@ -177,26 +199,22 @@
         },
         "feature-row": {
           "type": "feature-row",
-          "settings": {
-          }
+          "settings": {}
         },
         "footer": {
           "type": "footer",
           "blocks": {
             "link_list": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             },
             "newsletter": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -204,8 +222,7 @@
             "text",
             "newsletter"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "content_for_index": [
@@ -345,23 +362,20 @@
         },
         "1492033809691": {
           "type": "map",
-          "settings": {
-          }
+          "settings": {}
         },
         "1492033877875": {
           "type": "quotes",
           "blocks": {
             "1492033877875-0": {
               "type": "quote",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
             "1492033877875-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "1492033924902": {
           "type": "custom-content",
@@ -387,18 +401,15 @@
           "blocks": {
             "1492096252560-0": {
               "type": "featured_collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1492096252560-1": {
               "type": "featured_collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1492096252560-2": {
               "type": "featured_collection",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -437,18 +448,15 @@
           "blocks": {
             "link_list": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             },
             "newsletter": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -456,8 +464,7 @@
             "text",
             "newsletter"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "content_for_index": [

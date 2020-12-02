@@ -8,8 +8,8 @@
         "external": "Opens external website.",
         "new_window_and_external": "Opens external website in a new window."
       },
-      "refresh_page": "choosing a selection results in a full page refresh",
-      "selection_help": "press the space key then arrow keys to make a selection",
+      "refresh_page": "Choosing a selection results in a full page refresh.",
+      "selection_help": "Press the space key then arrow keys to make a selection.",
       "unit_price_separator": "per",
       "error": "Error"
     },
@@ -35,7 +35,7 @@
       "login_form_submit": "Enter",
       "signup_form_email_label": "Email",
       "signup_form_success": "We will send you an email right before we open!",
-      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"text-link\">Log in here<\/a>",
+      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
       "password_link": "Enter using password",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
     },
@@ -50,7 +50,7 @@
       }
     },
     "search": {
-      "no_results_html": "Please try a different search term or go back to the <a href=\"{{ link }}\">homepage<\/a>.",
+      "no_results_html": "Please try a different search term or go back to the <a href=\"{{ link }}\">homepage</a>.",
       "empty_search_message": "Search field cannot be empty",
       "results_with_count": {
         "one": "{{ count }} result for \"{{ terms }}\"",
@@ -89,7 +89,7 @@
       "pause_slideshow": "Pause slideshow",
       "rotate_slideshow": "Play slideshow",
       "load_slide": "Load slide {{ slide_number }}",
-      "navigation_instructions": "Use left\/right arrows to navigate the slideshow or swipe left\/right if using a mobile device"
+      "navigation_instructions": "Use left/right arrows to navigate the slideshow or swipe left/right if using a mobile device"
     },
     "featured_product": {
       "title": "Featured product",
@@ -98,7 +98,7 @@
     "map": {
       "address_error": "Error looking up that address",
       "address_no_results": "No results for that address",
-      "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>.",
+      "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>.",
       "auth_error_html": "There was a problem authenticating your Google Maps account.",
       "section_heading": "Location"
     },
@@ -141,14 +141,18 @@
     "general": {
       "title": "Your cart",
       "note": "Add a note to your order",
-      "removed_item_html": "Removed <span class=\"cart__removed-product-details\">({{ quantity }}) {{ link }}<\/span> from your cart.",
+      "removed_item_html": "Removed <span class=\"cart__removed-product-details\">({{ quantity }}) {{ link }}</span> from your cart.",
       "remove": "Remove",
       "subtotal": "Subtotal",
       "savings": "You're saving",
-      "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
-      "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "taxes_and_shipping_at_checkout":
+        "Taxes and shipping calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html":
+        "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
+      "taxes_included_but_shipping_at_checkout":
+        "Tax included and shipping calculated at checkout",
+      "taxes_included_and_shipping_policy_html":
+        "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
       "update": "Update",
       "checkout": "Check out",
       "empty": "Your cart is currently empty.",
@@ -241,7 +245,7 @@
       "city": "City",
       "country": "Country",
       "province": "Province",
-      "zip": "Postal\/Zip Code",
+      "zip": "Postal/Zip Code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add Address",
@@ -367,7 +371,8 @@
       "vendor": "Vendor",
       "quantity_minimum_message": "Quantity must be 1 or more",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "shipping_policy_html":
+      "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
       "unit_price_label": "Unit price",
       "view_cart": "View cart"
     }

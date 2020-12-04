@@ -2,6 +2,8 @@ name: Pull changes from Shopify
 
 on:
   workflow_dispatch:
+    branches:
+      - main
    
 env:
   SHOPIFY_HOST: ${{ secrets.SHOPIFY_HOST }}

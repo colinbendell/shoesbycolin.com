@@ -29,3 +29,4 @@ jobs:
           git config user.email "actions@github.com"
           git add -A
           git commit -m "Update theme from Shopify"
+          git push origin main

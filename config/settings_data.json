@@ -413,15 +413,18 @@
           "blocks": {
             "1492096252560-0": {
               "type": "featured_collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1492096252560-1": {
               "type": "featured_collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1492096252560-2": {
               "type": "featured_collection",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -460,15 +463,18 @@
           "blocks": {
             "link_list": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             },
             "text": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "newsletter": {
               "type": "newsletter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -476,7 +482,8 @@
             "text",
             "newsletter"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "content_for_index": [

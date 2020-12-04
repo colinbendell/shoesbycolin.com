@@ -64,13 +64,13 @@
       "hero": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/IMG_2739.jpeg",
+          "image": "shopify://shop_images/IMG_2739.jpeg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "medium",
           "text_size": "large",
           "title": "Colin's Shoes",
-          "text": "<p>More than an Analogy<\/p>",
+          "text": "<p>More than an Analogy</p>",
           "button_label": ""
         }
       },
@@ -80,7 +80,7 @@
           "slideshow-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_3771.jpeg",
+              "image": "shopify://shop_images/IMG_3771.jpeg",
               "alignment": "center center",
               "slide_title": "If lego is the language of the gods",
               "subheading": "then what is jed?",
@@ -118,7 +118,7 @@
             "type": "text",
             "settings": {
               "title": "Sometimes shoes are more than what meets the eye!",
-              "text": "<p>... <\/p>"
+              "text": "<p>... </p>"
             }
           }
         },
@@ -165,7 +165,8 @@
       "sections": {
         "header": {
           "type": "header",
-          "settings": {}
+          "settings": {
+          }
         },
         "hero": {
           "type": "hero",
@@ -178,18 +179,21 @@
           "blocks": {
             "slideshow-0": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "slideshow-1": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
             "slideshow-0",
             "slideshow-1"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "featured-collections": {
           "type": "collection",
@@ -199,22 +203,26 @@
         },
         "feature-row": {
           "type": "feature-row",
-          "settings": {}
+          "settings": {
+          }
         },
         "footer": {
           "type": "footer",
           "blocks": {
             "link_list": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             },
             "text": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "newsletter": {
               "type": "newsletter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -222,7 +230,8 @@
             "text",
             "newsletter"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "content_for_index": [
@@ -362,20 +371,23 @@
         },
         "1492033809691": {
           "type": "map",
-          "settings": {}
+          "settings": {
+          }
         },
         "1492033877875": {
           "type": "quotes",
           "blocks": {
             "1492033877875-0": {
               "type": "quote",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
             "1492033877875-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "1492033924902": {
           "type": "custom-content",

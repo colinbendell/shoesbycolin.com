@@ -1,0 +1,31 @@
+name: Pull changes from Shopify
+
+on:
+  workflow_dispatch:
+   
+env:
+  SHOPIFY_HOST: ${{ secrets.SHOPIFY_HOST }}
+  SHOPIFY_PASSWORD: ${{ secrets.SHOPIFY_PASSWORD }}
+  
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+      # Setup node
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+      - run: npm install
+
+      - name: Get theme
+        run: .github/bin/shopify-website pull --theme Debut 
+
+        # Assume we want to merge into same branch
+      - name: Commit to branch
+        run: |
+          git config user.name "Github Actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Update theme from Shopify"

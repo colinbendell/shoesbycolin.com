@@ -23,6 +23,6 @@ jobs:
         with:
           node-version: '14.x'
       - run: npm install
-      - run: .github/bin/shopify-website init Debut
-      - run: .github/bin/shopify-website push --theme=Debut --verbose
+      - run: node_modules/.bin/shopify-website init Debut
+      - run: node_modules/.bin/shopify-website push --theme=Debut --verbose
 

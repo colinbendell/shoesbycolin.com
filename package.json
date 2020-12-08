@@ -16,7 +16,9 @@
     "url": "https://github.com/colinbendell/shoesbycolin.com/issues"
   },
   "homepage": "https://github.com/colinbendell/shoesbycolin.com#readme",
-  "dependencies": {},
+  "dependencies": {
+    "shopify-git": "github:colinbendell/shopify-cli"
+  },
   "devDependencies": {
     "commander": "^6.2.0",
     "fetch-h2": "^2.5.1"
